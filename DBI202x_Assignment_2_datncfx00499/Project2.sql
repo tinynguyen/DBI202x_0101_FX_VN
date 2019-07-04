@@ -83,3 +83,19 @@ CREATE TABLE [Video_Category] (
     CONSTRAINT FK_CategoryId_Video FOREIGN KEY (CategoryId) REFERENCES Category(CategoryId)
 )
 GO
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('tinynguyen', 'datncfx00499@funix.edu.vn', '123456')
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('akichan', 'akichan@gmail.com', '123456')
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('teddy', 'teddy@gmail.com', '123456')
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('vespa', 'vespa@gmail.com', '123456')
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('liberty', 'liberty@gmail.com', '123456')
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('mercedes', 'mercedes@gmail.com', '123456')
+INSERT INTO [Account] ([Username], [Email], [Password]) VALUES ('taylor-swift', 'taylor-swift@gmail.com', '123456')
+GO
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Sport News', 'Sport News Channel is the best analysis, debates and highlights about football.', 'teddy')
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Taylor Swift Official', 'The Official Taylor Swift YouTube Channel.', 'teddy')
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Code Tutorials', 'I make free programming tutorials includes Java for beginner, JavaScript, NodeJS, React...', 'tinynguyen')
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Akichan.com', 'Learn Japanese with Akichan.com - The Fastest, Easiest and Most Fun Way to Learn Japanese. :)', 'akichan')
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Piaggio Official', 'PIAGGIO is synonymous with freedom in everyday life.', 'vespa')
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Mercedes-Benz', 'Welcome to the official Web TV channel of Mercedes-Benz.', 'mercedes')
+INSERT INTO [Channel] ([Name], [Description], [Username]) VALUES ('Liberty University', 'This is the official Liberty University YouTube channel featuring speakers from around the world and our beautiful campus located in Lynchburg, Virginia.', 'liberty')
+GO
