@@ -31,7 +31,7 @@ CREATE TABLE [Video] (
     [VideoId] INT NOT NULL IDENTITY(1,1),
     [Title] VARCHAR(255) NOT NULL,
     [Description] VARCHAR(255),
-    [Views] INT
+    [Views] INT,
     [Date_Upload] DATETIME,
     [ChannelId] INT NOT NULL,
     CONSTRAINT PK_VideoId PRIMARY KEY (VideoId),
@@ -56,21 +56,21 @@ CREATE TABLE [Comment] (
     [Content] VARCHAR(MAX),
     [Date_Create] DATETIME,
     [Username] VARCHAR(30) NOT NULL,
-    [VideoId] INT NOT NULL
+    [VideoId] INT NOT NULL,
     CONSTRAINT PK_CommentId PRIMARY KEY (CommentId),
-    CONSTRAINT FK_Username FOREIGN KEY (Username) REFERENCES Account(Username),
-    CONSTRAINT FK_VideoId FOREIGN KEY (VideoId) REFERENCES Video(VideoId)
+    CONSTRAINT FK_Username_Comment FOREIGN KEY (Username) REFERENCES Account(Username),
+    CONSTRAINT FK_VideoId_Comment FOREIGN KEY (VideoId) REFERENCES Video(VideoId)
 )
 GO
 IF NOT EXISTS (
-    SELECT [name] FROM sys.tables WHERE [name] = 'Subcribe'
+    SELECT [name] FROM sys.tables WHERE [name] = 'Subscribe'
 )
-CREATE TABLE [Subcribe] (
+CREATE TABLE [Subscribe] (
     [Username] VARCHAR(30) NOT NULL,
     [ChannelId] INT NOT NULL,
-    [Subcribed] INT,
-    CONSTRAINT FK_Username FOREIGN KEY (Username) REFERENCES Account(Username),
-    CONSTRAINT FK_ChannelId FOREIGN KEY (ChannelId) REFERENCES Channel(ChannelId)
+    [Subscribed] INT,
+    CONSTRAINT FK_Username_Subscribe FOREIGN KEY (Username) REFERENCES Account(Username),
+    CONSTRAINT FK_ChannelId_Subscribe FOREIGN KEY (ChannelId) REFERENCES Channel(ChannelId)
 )
 GO
 IF NOT EXISTS (
@@ -79,7 +79,7 @@ IF NOT EXISTS (
 CREATE TABLE [Video_Category] (
     [VideoId] INT NOT NULL,
     [CategoryId] INT NOT NULL,
-    CONSTRAINT FK_VideoId FOREIGN KEY (VideoId) REFERENCES Video(VideoId),
-    CONSTRAINT FK_CategoryId FOREIGN KEY (CategoryId) REFERENCES Category(CategoryId)
+    CONSTRAINT FK_VideoId_Category FOREIGN KEY (VideoId) REFERENCES Video(VideoId),
+    CONSTRAINT FK_CategoryId_Video FOREIGN KEY (CategoryId) REFERENCES Category(CategoryId)
 )
 GO
