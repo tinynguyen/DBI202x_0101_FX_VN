@@ -52,11 +52,11 @@ IF NOT EXISTS (
     SELECT [name] FROM sys.tables WHERE [name] = 'Comment'
 )
 CREATE TABLE [Comment] (
-    CommentId INT NOT NULL IDENTITY(1,1),
-    Content VARCHAR(MAX),
-    Date_Create DATETIME,
-    Username VARCHAR(30) NOT NULL,
-    VideoId INT NOT NULL
+    [CommentId] INT NOT NULL IDENTITY(1,1),
+    [Content] VARCHAR(MAX),
+    [Date_Create] DATETIME,
+    [Username] VARCHAR(30) NOT NULL,
+    [VideoId] INT NOT NULL
     CONSTRAINT PK_CommentId PRIMARY KEY (CommentId),
     CONSTRAINT FK_Username FOREIGN KEY (Username) REFERENCES Account(Username),
     CONSTRAINT FK_VideoId FOREIGN KEY (VideoId) REFERENCES Video(VideoId)
@@ -66,10 +66,20 @@ IF NOT EXISTS (
     SELECT [name] FROM sys.tables WHERE [name] = 'Subcribe'
 )
 CREATE TABLE [Subcribe] (
-    Username VARCHAR(30) NOT NULL,
-    ChannelId INT NOT NULL,
-    Subcribed INT,
+    [Username] VARCHAR(30) NOT NULL,
+    [ChannelId] INT NOT NULL,
+    [Subcribed] INT,
     CONSTRAINT FK_Username FOREIGN KEY (Username) REFERENCES Account(Username),
     CONSTRAINT FK_ChannelId FOREIGN KEY (ChannelId) REFERENCES Channel(ChannelId)
+)
+GO
+IF NOT EXISTS (
+    SELECT [name] FROM sys.tables WHERE [name] = 'Video_Category'
+)
+CREATE TABLE [Video_Category] (
+    [VideoId] INT NOT NULL,
+    [CategoryId] INT NOT NULL,
+    CONSTRAINT FK_VideoId FOREIGN KEY (VideoId) REFERENCES Video(VideoId),
+    CONSTRAINT FK_CategoryId FOREIGN KEY (CategoryId) REFERENCES Category(CategoryId)
 )
 GO
