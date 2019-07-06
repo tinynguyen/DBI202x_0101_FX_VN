@@ -300,3 +300,23 @@ values ('Baccalaureate 2019 - Dr. Jerry Vines',
         771,
         '2019-06-01 15:15:00', 6)
 go
+
+-- insert new category into Category table
+insert into [Category] ([Name], [Description]) values ('Music', 'This is a category about Music')
+insert into [Category] ([Name], [Description]) values ('Entertaiment', 'This is a category about Entertaiment')
+insert into [Category] ([Name], [Description]) values ('Football', 'This is a category about Football')
+insert into [Category] ([Name], [Description]) values ('Sport', 'This is a category about Sport')
+insert into [Category] ([Name], [Description]) values ('Star', 'This is a category about Star')
+insert into [Category] ([Name], [Description]) values ('Java', 'This is a category about Java')
+insert into [Category] ([Name], [Description]) values ('JavaScript', 'This is a category about JavaScript')
+insert into [Category] ([Name], [Description]) values ('React', 'This is a category about React')
+insert into [Category] ([Name], [Description]) values ('NodeJS', 'This is a category about NodeJS')
+insert into [Category] ([Name], [Description]) values ('Information Technical', 'This is a category about Information Technical')
+insert into [Category] ([Name], [Description]) values ('Japanese', 'This is a category about Japanese')
+insert into [Category] ([Name], [Description]) values ('Languages', 'This is a category about Languages')
+insert into [Category] ([Name], [Description]) values ('Courses', 'This is a category about Courses')
+insert into [Category] ([Name], [Description]) values ('Motobike', 'This is a category about Motobike')
+insert into [Category] ([Name], [Description]) values ('Vehile', 'This is a category about Vehile')
+insert into [Category] ([Name], [Description]) values ('Car', 'This is a category about Car')
+insert into [Category] ([Name], [Description]) values ('Education', 'This is a category about Education')
+go
