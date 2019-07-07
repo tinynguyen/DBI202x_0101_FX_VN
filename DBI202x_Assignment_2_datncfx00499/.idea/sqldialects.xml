@@ -2,8 +2,10 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/CreateDB.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/InnerJoin.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/InsertData.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/OrderBy.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/OuterJoin.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/Select.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/Where.sql" dialect="TSQL" />
   </component>
