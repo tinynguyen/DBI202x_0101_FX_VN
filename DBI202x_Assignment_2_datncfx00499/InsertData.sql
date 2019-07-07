@@ -302,136 +302,351 @@ values ('Baccalaureate 2019 - Dr. Jerry Vines',
 go
 
 -- insert new category into Category table
-insert into [Category] ([Name], [Description]) values ('Music', 'This is a category about Music')
-insert into [Category] ([Name], [Description]) values ('Entertaiment', 'This is a category about Entertaiment')
-insert into [Category] ([Name], [Description]) values ('Football', 'This is a category about Football')
-insert into [Category] ([Name], [Description]) values ('Sport', 'This is a category about Sport')
-insert into [Category] ([Name], [Description]) values ('Star', 'This is a category about Star')
-insert into [Category] ([Name], [Description]) values ('Java', 'This is a category about Java')
-insert into [Category] ([Name], [Description]) values ('JavaScript', 'This is a category about JavaScript')
-insert into [Category] ([Name], [Description]) values ('React', 'This is a category about React')
-insert into [Category] ([Name], [Description]) values ('NodeJS', 'This is a category about NodeJS')
-insert into [Category] ([Name], [Description]) values ('Information Technical', 'This is a category about Information Technical')
-insert into [Category] ([Name], [Description]) values ('Japanese', 'This is a category about Japanese')
-insert into [Category] ([Name], [Description]) values ('Languages', 'This is a category about Languages')
-insert into [Category] ([Name], [Description]) values ('Courses', 'This is a category about Courses')
-insert into [Category] ([Name], [Description]) values ('Motobike', 'This is a category about Motobike')
-insert into [Category] ([Name], [Description]) values ('Vehile', 'This is a category about Vehile')
-insert into [Category] ([Name], [Description]) values ('Car', 'This is a category about Car')
-insert into [Category] ([Name], [Description]) values ('Education', 'This is a category about Education')
-insert into [Category] ([Name], [Description]) values ('CShape', 'This is a category about CShape')
-insert into [Category] ([Name], [Description]) values ('Bike', 'This is a category about Bike')
+insert into [Category] ([Name], [Description])
+values ('Music', 'This is a category about Music')
+insert into [Category] ([Name], [Description])
+values ('Entertaiment', 'This is a category about Entertaiment')
+insert into [Category] ([Name], [Description])
+values ('Football', 'This is a category about Football')
+insert into [Category] ([Name], [Description])
+values ('Sport', 'This is a category about Sport')
+insert into [Category] ([Name], [Description])
+values ('Star', 'This is a category about Star')
+insert into [Category] ([Name], [Description])
+values ('Java', 'This is a category about Java')
+insert into [Category] ([Name], [Description])
+values ('JavaScript', 'This is a category about JavaScript')
+insert into [Category] ([Name], [Description])
+values ('React', 'This is a category about React')
+insert into [Category] ([Name], [Description])
+values ('NodeJS', 'This is a category about NodeJS')
+insert into [Category] ([Name], [Description])
+values ('Information Technical', 'This is a category about Information Technical')
+insert into [Category] ([Name], [Description])
+values ('Japanese', 'This is a category about Japanese')
+insert into [Category] ([Name], [Description])
+values ('Languages', 'This is a category about Languages')
+insert into [Category] ([Name], [Description])
+values ('Courses', 'This is a category about Courses')
+insert into [Category] ([Name], [Description])
+values ('Motobike', 'This is a category about Motobike')
+insert into [Category] ([Name], [Description])
+values ('Vehile', 'This is a category about Vehile')
+insert into [Category] ([Name], [Description])
+values ('Car', 'This is a category about Car')
+insert into [Category] ([Name], [Description])
+values ('Education', 'This is a category about Education')
+insert into [Category] ([Name], [Description])
+values ('CShape', 'This is a category about CShape')
+insert into [Category] ([Name], [Description])
+values ('Bike', 'This is a category about Bike')
 go
 
 -- insert into Video_Category table
-insert into [Video_Category] ([VideoId], [CategoryId]) values (3, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (3, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (3, 5);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (4, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (4, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (4, 5);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (5, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (5, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (6, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (6, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (7, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (7, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (7, 5);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (8, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (8, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (9, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (9, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (10, 3);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (10, 4);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (10, 5);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (11, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (11, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (12, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (12, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (13, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (13, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (14, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (14, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (15, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (15, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (16, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (16, 8);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (17, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (17, 8);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (17, 10);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (18, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (18, 9);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (19, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (19, 9);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (20, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (20, 9);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (21, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (21, 10);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (22, 7);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (22, 8);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (22, 10);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (23, 18);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (24, 18);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (24, 10);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (25, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (25, 12);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (25, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (25, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (26, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (26, 13);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (27, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (27, 12);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (27, 13);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (28, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (28, 12);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (28, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (28, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (29, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (29, 13);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (30, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (30, 13);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (31, 11);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (31, 13);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (32, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (32, 19);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (33, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (33, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (34, 14);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (34, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (35, 14);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (35, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (37, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (37, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (37, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (37, 19);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (38, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (38, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (39, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (39, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (40, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (40, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (41, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (41, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (42, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (42, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (43, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (43, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (44, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (44, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (45, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (45, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (46, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (46, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (46, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (47, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (47, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (48, 15);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (48, 16);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (49, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (49, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (50, 17);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (51, 1);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (51, 2);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (52, 13);
-insert into [Video_Category] ([VideoId], [CategoryId]) values (52, 17);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (3, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (3, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (3, 5);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (4, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (4, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (4, 5);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (5, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (5, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (6, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (6, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (7, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (7, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (7, 5);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (8, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (8, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (9, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (9, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (10, 3);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (10, 4);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (10, 5);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (11, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (11, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (12, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (12, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (13, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (13, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (14, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (14, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (15, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (15, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (16, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (16, 8);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (17, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (17, 8);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (17, 10);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (18, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (18, 9);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (19, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (19, 9);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (20, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (20, 9);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (21, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (21, 10);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (22, 7);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (22, 8);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (22, 10);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (23, 18);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (24, 18);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (24, 10);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (25, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (25, 12);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (25, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (25, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (26, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (26, 13);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (27, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (27, 12);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (27, 13);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (28, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (28, 12);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (28, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (28, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (29, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (29, 13);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (30, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (30, 13);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (31, 11);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (31, 13);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (32, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (32, 19);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (33, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (33, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (34, 14);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (34, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (35, 14);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (35, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (37, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (37, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (37, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (37, 19);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (38, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (38, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (39, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (39, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (40, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (40, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (41, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (41, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (42, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (42, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (43, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (43, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (44, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (44, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (45, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (45, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (46, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (46, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (46, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (47, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (47, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (48, 15);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (48, 16);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (49, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (49, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (50, 17);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (51, 1);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (51, 2);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (52, 13);
+insert into [Video_Category] ([VideoId], [CategoryId])
+values (52, 17);
 go
+
+-- insert into Subscribe table
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('akichan', 2, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('akichan', 4, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('akichan', 7, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('akichan', 5, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('taylor-swift', 2, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('taylor-swift', 5, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('teddy', 1, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('teddy', 6, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('teddy', 2, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('tinynguyen', 3, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('tinynguyen', 2, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('tinynguyen', 6, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('tinynguyen', 4, 1)
+insert into [Subscribe] ([Username], [ChannelId], [Subscribed])
+values ('tinynguyen', 1, 1)
+go
+
+-- insert new comments into Subscribe table
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Yeah Neymar Jr and griezmann and messi is very beautiful back Barcelona 2020', '2019-07-03', 'tinynguyen', 3);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Fernandes not Fernandez he ain’t Spanish', '2019-07-05', 'teddy', 4);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('She is so beautiful in and out... She should stick to these type of songs.. I hope bullying her by media and industry is not going to change her innocence and good vibes...',
+        '2019-07-02', 'akichan', 11);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Love when Zendaya throws that knife STRAIGHT through the teddy bear', '2019-07-04', 'liberty', 12);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('8 year old me listening to this like I could relate', '2019-05-16', 'akichan', 13);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('The "I love TS" shirts the backup dancers were wearing is the same shirt she had her ex-bf (Tom Hiddleston) wear. Don''t know if that''s of any importance.',
+        '2019-04-29', 'akichan', 14);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('I remember when I was was on YouTube and Taylor’s swifts new music vid came', '2019-04-20', 'tinynguyen', 14);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('I came here after listening to ''Love Story'' ... things have ... changed? to say the least', '2019-03-11',
+        'teddy', 14);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Thank you so much for easy to understand what is the react!', '2018-07-24',
+        'taylor-swift', 16);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('I really like how you teach, I can''t wait for this course!', '2018-07-07',
+        'liberty', 20);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Wow... I will have to go try this bike', '2018-10-18',
+        'akichan', 32);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Subscribe to Mercedes-Benz on YouTube: http://www.youtube.com/subscription_center?add_user=MercedesBenzTV',
+        '2019-05-10',
+        'mercedes', 41);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('One dream one Mercedes', '2019-05-12',
+        'taylor-swift', 41);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Subscribe to the channel so you get notified for new exciting videos here: http://www.youtube.com/subscription_center?add_user=MercedesBenzTV',
+        '2019-06-07',
+        'mercedes', 42);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Congrats on a million subs guys! Best car company ever!!!',
+        '2019-06-09',
+        'liberty', 42);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Subscribe to the channel so you get notified for new exciting videos here: http://www.youtube.com/subscription_center?add_user=MercedesBenzTV',
+        '2019-07-01',
+        'mercedes', 47);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Baby AMG GT 4 door, beautiful car',
+        '2019-07-02',
+        'tinynguyen', 47);
+insert into [Comment] ([Content], [Date_Create], [Username], [VideoId])
+values ('Great statement!', '2019-06-01', 'akichan', 52);
