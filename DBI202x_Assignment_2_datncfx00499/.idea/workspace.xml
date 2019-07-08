@@ -94,7 +94,113 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/8892e7b5-d735-486a-9b05-e00f9040bd38.DATABASE:Project2_DBI202x">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>8892e7b5-d735-486a-9b05-e00f9040bd38.DATABASE:Project2_DBI202x</OriginalElement>
+              <nodes>
+                <node x="116.75416666666666" y="585.5">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video_Category</node>
+                <node x="0.0" y="362.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Category</node>
+                <node x="273.75" y="151.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel</node>
+                <node x="421.00416666666666" y="549.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Comment</node>
+                <node x="476.30833333333334" y="0.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account</node>
+                <node x="223.0" y="326.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video</node>
+                <node x="446.0" y="362.5">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Subscribe</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Comment" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video">
+                  <point x="-47.0" y="-74.5" />
+                  <point x="468.00416666666666" y="524.0" />
+                  <point x="375.25" y="524.0" />
+                  <point x="50.75" y="86.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Subscribe" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account">
+                  <point x="46.0" y="-50.0" />
+                  <point x="584.0" y="126.0" />
+                  <point x="568.3083333333334" y="126.0" />
+                  <point x="0.0" y="50.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account">
+                  <point x="-2.8421709430404007E-14" y="-62.5" />
+                  <point x="375.24999999999994" y="126.0" />
+                  <point x="506.975" y="126.0" />
+                  <point x="-61.33333333333334" y="50.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel">
+                  <point x="-2.8421709430404007E-14" y="-86.5" />
+                  <point x="-50.75" y="62.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video_Category" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Category">
+                  <point x="-39.0" y="-38.0" />
+                  <point x="155.75416666666666" y="524.0" />
+                  <point x="101.5" y="524.0" />
+                  <point x="0.0" y="50.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Subscribe" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel">
+                  <point x="-46.0" y="-50.0" />
+                  <point x="492.0" y="301.0" />
+                  <point x="425.99999999999994" y="301.0" />
+                  <point x="50.74999999999997" y="62.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video_Category" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video">
+                  <point x="39.0" y="-38.0" />
+                  <point x="233.75416666666666" y="524.0" />
+                  <point x="273.75" y="524.0" />
+                  <point x="-50.75" y="86.5" />
+                </edge>
+                <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Comment" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account">
+                  <point x="47.0" y="-74.5" />
+                  <point x="562.0041666666667" y="524.0" />
+                  <point x="640.5" y="524.0" />
+                  <point x="640.5" y="126.0" />
+                  <point x="629.6416666666667" y="126.0" />
+                  <point x="61.33333333333334" y="50.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-26.5" y="220.0" />
+              <SelectedNodes>
+                <node>8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GroupBy.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Having.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8892e7b5-d735-486a-9b05-e00f9040bd38/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -106,10 +212,12 @@
         <option value="$PROJECT_DIR$/InsertData.sql" />
         <option value="$PROJECT_DIR$/Select.sql" />
         <option value="$PROJECT_DIR$/Where.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8892e7b5-d735-486a-9b05-e00f9040bd38/console.sql" />
         <option value="$PROJECT_DIR$/OrderBy.sql" />
         <option value="$PROJECT_DIR$/OuterJoin.sql" />
         <option value="$PROJECT_DIR$/InnerJoin.sql" />
+        <option value="$PROJECT_DIR$/GroupBy.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8892e7b5-d735-486a-9b05-e00f9040bd38/console.sql" />
+        <option value="$PROJECT_DIR$/Having.sql" />
       </list>
     </option>
   </component>
@@ -137,7 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +272,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,17 +314,19 @@
       <workItem from="1562380373025" duration="1023000" />
       <workItem from="1562471867149" duration="258000" />
       <workItem from="1562488293904" duration="2525000" />
-      <workItem from="1562508249449" duration="2856000" />
+      <workItem from="1562508249449" duration="3377000" />
+      <workItem from="1562546515874" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6662000" />
+    <option name="totallyTimeSpent" value="9977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="988" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10458911" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10565635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -235,7 +345,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="12" visible="true" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="12" visible="true" weight="0.53900707" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8892e7b5-d735-486a-9b05-e00f9040bd38/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InsertData.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -308,6 +411,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/8892e7b5-d735-486a-9b05-e00f9040bd38.DATABASE:Project2_DBI202x">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>8892e7b5-d735-486a-9b05-e00f9040bd38.DATABASE:Project2_DBI202x</OriginalElement>
+          <nodes>
+            <node x="116.75416666666666" y="585.5">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video_Category</node>
+            <node x="0.0" y="362.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Category</node>
+            <node x="273.75" y="151.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel</node>
+            <node x="421.00416666666666" y="549.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Comment</node>
+            <node x="476.30833333333334" y="0.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account</node>
+            <node x="223.0" y="326.0">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video</node>
+            <node x="446.0" y="362.5">8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Subscribe</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Comment" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video">
+              <point x="-47.0" y="-74.5" />
+              <point x="468.00416666666666" y="524.0" />
+              <point x="375.25" y="524.0" />
+              <point x="50.75" y="86.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Subscribe" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account">
+              <point x="46.0" y="-50.0" />
+              <point x="584.0" y="126.0" />
+              <point x="568.3083333333334" y="126.0" />
+              <point x="0.0" y="50.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account">
+              <point x="-2.8421709430404007E-14" y="-62.5" />
+              <point x="375.24999999999994" y="126.0" />
+              <point x="506.975" y="126.0" />
+              <point x="-61.33333333333334" y="50.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel">
+              <point x="-2.8421709430404007E-14" y="-86.5" />
+              <point x="-50.75" y="62.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video_Category" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Category">
+              <point x="-39.0" y="-38.0" />
+              <point x="155.75416666666666" y="524.0" />
+              <point x="101.5" y="524.0" />
+              <point x="0.0" y="50.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Subscribe" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel">
+              <point x="-46.0" y="-50.0" />
+              <point x="492.0" y="301.0" />
+              <point x="425.99999999999994" y="301.0" />
+              <point x="50.74999999999997" y="62.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video_Category" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Video">
+              <point x="39.0" y="-38.0" />
+              <point x="233.75416666666666" y="524.0" />
+              <point x="273.75" y="524.0" />
+              <point x="-50.75" y="86.5" />
+            </edge>
+            <edge source="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Comment" target="8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Account">
+              <point x="47.0" y="-74.5" />
+              <point x="562.0041666666667" y="524.0" />
+              <point x="640.5" y="524.0" />
+              <point x="640.5" y="126.0" />
+              <point x="629.6416666666667" y="126.0" />
+              <point x="61.33333333333334" y="50.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-26.5" y="220.0" />
+          <SelectedNodes>
+            <node>8892e7b5-d735-486a-9b05-e00f9040bd38.TABLE:Project2_DBI202x.dbo.Channel</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupBy.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8892e7b5-d735-486a-9b05-e00f9040bd38/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Having.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
