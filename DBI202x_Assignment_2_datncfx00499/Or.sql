@@ -1,0 +1,1 @@
+select * from [Video] where [ChannelId] = 6 or [Views] > 1000000;
