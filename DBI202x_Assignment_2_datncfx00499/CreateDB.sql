@@ -49,7 +49,7 @@ create table [Video]
     [VideoId]     int          not null identity (1,1),
     [Title]       varchar(255) not null,
     [Description] varchar(255),
-    [Views]       int,
+    [Views]       bigint,
     [Date_Upload] datetime,
     [ChannelId]   int          not null,
     constraint PK_VideoId primary key (VideoId),
