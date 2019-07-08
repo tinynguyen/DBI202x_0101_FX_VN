@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/CreateDB.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/GroupBy.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/Having.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/IncreasePerformance.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Index.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/InnerJoin.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/InsertData.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/Like.sql" dialect="TSQL" />

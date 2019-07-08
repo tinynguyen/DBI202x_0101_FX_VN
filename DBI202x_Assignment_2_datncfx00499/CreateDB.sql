@@ -30,7 +30,7 @@ if not exists(
 create table [Channel]
 (
     [ChannelId]   int         not null identity (1,1),
-    [Name]        varchar(30) not null,
+    [Name]        varchar(30) not null unique,
     [Description] varchar(255),
     [Username]    varchar(30) not null,
     constraint PK_ChannelId primary key (ChannelId),
@@ -66,7 +66,7 @@ if not exists(
 create table [Category]
 (
     [CategoryId]  int         not null identity (1,1),
-    [Name]        varchar(30) not null,
+    [Name]        varchar(30) not null unique,
     [Description] varchar(255),
     constraint PK_CategoryId primary key (CategoryId)
 )

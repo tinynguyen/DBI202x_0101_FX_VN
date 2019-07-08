@@ -1,1 +1,1 @@
-select sum(Views) from Video where ChannelId = 2;
+select sum(Views) as 'Total Views of Taylor Swift' from Video where ChannelId = 2;
