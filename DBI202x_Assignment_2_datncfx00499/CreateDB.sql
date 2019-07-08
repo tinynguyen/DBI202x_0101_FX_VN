@@ -30,9 +30,10 @@ if not exists(
 create table [Channel]
 (
     [ChannelId]   int         not null identity (1,1),
-    [Name]        varchar(30) not null unique,
+    [Name]        varchar(30) not null,
     [Description] varchar(255),
     [Username]    varchar(30) not null,
+    constraint Unique_Name_Video unique (Name),
     constraint PK_ChannelId primary key (ChannelId),
     constraint FK_Username foreign key (Username) references Account (Username)
 )
@@ -66,8 +67,9 @@ if not exists(
 create table [Category]
 (
     [CategoryId]  int         not null identity (1,1),
-    [Name]        varchar(30) not null unique,
+    [Name]        varchar(30) not null,
     [Description] varchar(255),
+    constraint Unique_Name_Category unique (Name),
     constraint PK_CategoryId primary key (CategoryId)
 )
 go
