@@ -20,7 +20,7 @@ insert into [Channel]
     ([Name], [Description], [Username])
 values ('Sport News', 'Sport News Channel is the best analysis, debates and highlights about football.', 'teddy')
 insert into [Channel] ([Name], [Description], [Username])
-values ('Taylor Swift Official', 'The Official Taylor Swift YouTube Channel.', 'teddy')
+values ('Taylor Swift Official', 'The Official Taylor Swift YouTube Channel.', 'taylor-swift')
 insert into [Channel] ([Name], [Description], [Username])
 values ('Code Tutorials',
         'I make free programming tutorials includes Java for beginner, JavaScript, NodeJS, React...',
