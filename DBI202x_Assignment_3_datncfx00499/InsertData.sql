@@ -1,3 +1,7 @@
+-- use database
+use Project3_DBI202x
+go
+
 -- insert new account into Account table
 insert into [Account] ([Username], [Email], [Password])
 values ('tinynguyen', 'datncfx00499@funix.edu.vn', '123456')
