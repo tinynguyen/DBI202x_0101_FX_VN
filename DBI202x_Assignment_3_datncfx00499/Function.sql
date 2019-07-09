@@ -6,8 +6,8 @@ create function SF_TotalSubscribe(@ChannelId int)
         where ChannelId = @ChannelId
 go
 
-declare @a int
-select @a = ChannelId from Channel where Username = 'taylor_swift'
-select * from SF_TotalSubscribe(@a)
+declare @ChannelId int
+select @ChannelId = ChannelId from Channel where Username = 'taylor-swift'
+select * from SF_TotalSubscribe(@ChannelId)
 go
 
